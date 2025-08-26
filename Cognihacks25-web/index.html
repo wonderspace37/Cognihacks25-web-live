@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CogniHacks 2025 - The Future of Neurotech</title>
+    <meta name="description" content="Join the most innovative neurotech hackathon of 2025. Build brain-computer interfaces, explore AI, and shape the future of human-computer interaction.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-brain"></i>
+            </div>
+            <h1 class="loading-title">CogniHacks</h1>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-subtitle">Loading the future of neurotechnology...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <span class="logo-text">CogniHacks</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#sponsors" class="nav-link" data-section="sponsors">Sponsors</a>
+                <a href="#tracks" class="nav-link" data-section="tracks">Tracks</a>
+                <a href="#schedule" class="nav-link" data-section="schedule">Schedule</a>
+                <a href="#faq" class="nav-link" data-section="faq">FAQ</a>
+                <a href="#register" class="nav-link" data-section="register">Register</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background">
+                <div class="floating-elements">
+                    <div class="floating-element" data-speed="0.5">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="floating-element" data-speed="0.8">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="floating-element" data-speed="0.3">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="floating-element" data-speed="0.6">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">CogniHacks</span>
+                        <span class="title-line">2025</span>
+                    </h1>
+                    <p class="hero-subtitle">Where minds meet machines. Build the future of brain-computer interfaces in one revolutionary day.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="150">0</span>
+                            <span class="stat-label">Participants</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="12">0</span>
+                            <span class="stat-label">Hours</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="1200">0</span>
+                            <span class="stat-label">Prize Pool</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-large" onclick="scrollToSection('register')">
+                            <span>Join the Revolution</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-secondary btn-large" onclick="scrollToSection('tracks')">
+                            <span>Explore Tracks</span>
+                            <i class="fas fa-rocket"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="brain-interface">
+                        <div class="brain-waves">
+                            <div class="wave wave-1"></div>
+                            <div class="wave wave-2"></div>
+                            <div class="wave wave-3"></div>
+                        </div>
+                        <div class="brain-core">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="connection-lines">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About CogniHacks</h2>
+                    <p class="section-subtitle">The most advanced neurotechnology hackathon in the world</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card" data-aos="fade-up">
+                        <div class="card-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>When</h3>
+                        <div class="card-details">
+                            <div class="detail-main">August 30, 2025</div>
+                            <div class="detail-sub">7:30 AM - 8:00 PM PT</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Where</h3>
+                        <div class="card-details">
+                            <div class="detail-main">Zoho Corporation</div>
+                            <div class="detail-sub">Pleasanton, California</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Who</h3>
+                        <div class="card-details">
+                            <div class="detail-main">200 Innovators</div>
+                            <div class="detail-sub">Students, professionals, researchers</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Why</h3>
+                        <div class="card-details">
+                            <div class="detail-main">$50,000+</div>
+                            <div class="detail-sub">In prizes and opportunities</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature-item" data-aos="fade-right">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Cutting-Edge BCI Hardware</h3>
+                            <p>Access to Emotiv EPOC X, NeuroSky MindWave, and custom OpenBCI boards. Experience the future of brain-computer interfaces firsthand.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item" data-aos="fade-left">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>AI-Powered Development</h3>
+                            <p>Leverage the latest AI tools and frameworks. Build intelligent systems that can interpret brain signals and respond in real-time.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item" data-aos="fade-right">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Expert Mentorship</h3>
+                            <p>Learn from industry leaders in neurotechnology, neuroscience, and AI. Get personalized guidance throughout your hackathon journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section id="sponsors" class="sponsors-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Sponsors</h2>
+                    <p class="section-subtitle">Proudly supported by industry leaders in neurotechnology and AI</p>
+                </div>
+                
+                <div class="sponsors-grid">
+                    <div class="sponsor-card partner" data-aos="zoom-in">
+                        <div class="sponsor-logos">
+                            <div class="logo-item">
+                                <a href="https://karmai.ai" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/karmai-logo.png" alt="Karma AI" />
+                                </a>
+                            </div>
+                            <div class="logo-item">
+                                <a href="https://emotiv.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/emotiv-logo.png" alt="EMOTIV" />
+                                </a>
+                            </div>
+                            <div class="logo-item">
+                                <a href="https://zoho.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/zoho-logo.png" alt="Zoho" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sponsor-info">
+                            <h3>Partner Tier</h3>
+                            <p>Empowering CogniHacks through innovation and collaboration.</p>
+                            <div class="sponsor-tier">Partner</div>
+                        </div>
+                    </div>
+                    
+                    <div class="sponsor-card diamond" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="sponsor-logos">
+                            <div class="logo-item">
+                                <a href="https://nirman.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/nirman-logo.png" alt="Nirman" />
+                                </a>
+                            </div>
+                            <div class="logo-item">
+                                <a href="https://deccanmorsels.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/deccan-morsels-logo.png" alt="Deccan Morsels" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sponsor-info">
+                            <h3>Diamond Tier</h3>
+                            <p>Driving breakthrough impact in neurotechnology and AI.</p>
+                            <div class="sponsor-tier">Diamond</div>
+                        </div>
+                    </div>
+                    
+                    <div class="sponsor-card startup" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="sponsor-logos">
+                            <div class="logo-item">
+                                <a href="https://motif.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/motif-logo.png" alt="Motif" />
+                                </a>
+                            </div>
+                            <div class="logo-item">
+                                <a href="https://www.makex.app/" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/makex-logo.png" alt="MakeX" />
+                                </a>
+                            </div>
+                            <div class="logo-item">
+                                <a href="https://pandaexpress.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="./assets/sponsors/panda-express-logo.png" alt="Panda Express" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sponsor-info">
+                            <h3>Startup Tier</h3>
+                            <p>Supporting early-stage innovation and bold ideas.</p>
+                            <div class="sponsor-tier">Startup</div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+        <!-- Tracks Section -->
+        <section id="tracks" class="tracks-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Innovation Tracks</h2>
+                    <p class="section-subtitle">Choose your path to neurotech innovation</p>
+                </div>
+                
+                <div class="tracks-grid">
+                    <div class="track-card" data-aos="zoom-in">
+                        <div class="track-header">
+                            <div class="track-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>BCI & Human Enhancement</h3>
+                        </div>
+                        <p>Explore BCI applications to improve health, cognition, and daily human life.</p>
+                        <div class="track-tags">
+                            <span class="tag">BCI</span>
+                            <span class="tag">Neurotech</span>
+                            <span class="tag">Wellness</span>
+                            <span class="tag">Enhancement</span>
+                            <span class="tag">Health</span>
+                        </div>
+                    </div>
+                    
+                    <div class="track-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="track-header">
+                            <div class="track-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>GenAI & Agentic AI</h3>
+                        </div>
+                        <p>Build AI-powered solutions that make everyday human tasks simpler and smarter.</p>
+                        <div class="track-tags">
+                            <span class="tag">GenAI</span>
+                            <span class="tag">Agentic AI</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Productivity</span>
+                            <span class="tag">Humans</span>
+                        </div>
+                    </div>
+                    
+                    <div class="track-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="track-header">
+                            <div class="track-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Human–Computer Interfaces (Concepts)</h3>
+                        </div>
+                        <p>Design low/no-code concepts for better ways humans interact with computers.</p>
+                        <div class="track-tags">
+                            <span class="tag">HCI</span>
+                            <span class="tag">UX</span>
+                            <span class="tag">Low-Code</span>
+                            <span class="tag">Interfaces</span>
+                            <span class="tag">Accessibility</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule" class="schedule-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Event Schedule</h2>
+                    <p class="section-subtitle">Your journey through 12 hours of innovation</p>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-time">7:30 AM</div>
+                        <div class="timeline-content">
+                            <h3>Registration & Breakfast</h3>
+                            <p>Check in, grab coffee, and meet your fellow innovators</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-time">8:30 AM</div>
+                        <div class="timeline-content">
+                            <h3>Opening Ceremony</h3>
+                            <p>Welcome from organizers and keynote speakers</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-time">9:00 AM</div>
+                        <div class="timeline-content">
+                            <h3>Hacking Begins</h3>
+                            <p>Start building your revolutionary BCI application</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="timeline-time">12:00 PM</div>
+                        <div class="timeline-content">
+                            <h3>Lunch & Hardware Demos</h3>
+                            <p>Fuel up and explore BCI devices</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="timeline-time">5:00 PM</div>
+                        <div class="timeline-content">
+                            <h3>Submissions Due</h3>
+                            <p>Finalize your project and prepare to present</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                        <div class="timeline-time">5:30 PM</div>
+                        <div class="timeline-content">
+                            <h3>Presentations & Judging</h3>
+                            <p>Showcase your innovation to the world</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                        <div class="timeline-time">7:30 PM</div>
+                        <div class="timeline-content">
+                            <h3>Awards & Closing</h3>
+                            <p>Celebrate winners and close an amazing day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Everything you need to know about CogniHacks 2025</p>
+                </div>
+                
+                <div class="faq-grid">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Who can participate?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Anyone 18+ with an interest in neurotechnology and AI! No prior BCI experience required. We welcome students, professionals, researchers, and hobbyists.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>How much does it cost?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Completely free! Registration, meals, hardware access, and prizes are all included thanks to our generous sponsors.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>What should I bring?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Your laptop, chargers, and enthusiasm! We provide all BCI hardware, development boards, WiFi, and power outlets.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <h3>Can I work alone?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! While teams can have up to 4 members, solo participants are welcome. We'll help you find teammates if you want.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Register Section -->
+        <section id="register" class="register-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Join the Revolution</h2>
+                    <p class="section-subtitle">Be part of the future of neurotechnology</p>
+                </div>
+                
+                <div class="register-content">
+                    <div class="register-info">
+                        <h3>Why Register Now?</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Limited to 200 participants</li>
+                            <li><i class="fas fa-check"></i> Early access to hardware demos</li>
+                            <li><i class="fas fa-check"></i> Priority mentorship matching</li>
+                            <li><i class="fas fa-check"></i> Exclusive pre-event workshops</li>
+                        </ul>
+                        
+                        <div class="countdown" id="countdown">
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="days">00</span>
+                                <span class="countdown-label">Days</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="hours">00</span>
+                                <span class="countdown-label">Hours</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="minutes">00</span>
+                                <span class="countdown-label">Minutes</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="seconds">00</span>
+                                <span class="countdown-label">Seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="register-form">
+                        <form id="registrationForm" class="form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="experience">Experience Level</label>
+                                <select id="experience" name="experience" required>
+                                    <option value="">Select your level</option>
+                                    <option value="beginner">Beginner (No BCI experience)</option>
+                                    <option value="intermediate">Intermediate (Some programming/AI experience)</option>
+                                    <option value="advanced">Advanced (BCI/AI development experience)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="track">Preferred Track</label>
+                                <select id="track" name="track" required>
+                                    <option value="">Choose a track</option>
+                                    <option value="healthcare">Healthcare & Wellness</option>
+                                    <option value="gaming">Gaming & Entertainment</option>
+                                    <option value="industrial">Industrial & Productivity</option>
+                                    <option value="accessibility">Accessibility & Inclusion</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="team">Team Preference</label>
+                                <select id="team" name="team" required>
+                                    <option value="">Select preference</option>
+                                    <option value="solo">Work solo</option>
+                                    <option value="find-team">Find a team</option>
+                                    <option value="bring-team">Bring my own team</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <span>Register for CogniHacks</span>
+                                <i class="fas fa-rocket"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-brain"></i>
+                        <span>CogniHacks</span>
+                    </div>
+                    <p>Advancing the future of brain-computer interfaces through innovation, collaboration, and cutting-edge technology.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tracks">Tracks</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="mailto:hello@cognihacks.com">Email</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with the latest neurotech news and event updates.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 CogniHacks. Made with ❤️ by the CogniHacks team.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
